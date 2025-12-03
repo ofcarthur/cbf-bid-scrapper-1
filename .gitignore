@@ -136,6 +136,11 @@ captcha_ml/models/*.h5
 captcha_ml/models/*.pkl
 captcha_ml/models/training_history.png
 
+# EXCEÇÕES: Modelos importantes para produção
+!captcha_ml/models/ctc_model.weights.h5
+!captcha_ml/models/ctc_model_checkpoint.weights.h5
+!captcha_ml/models/meta.pkl
+
 # Temporary files
 /tmp/current_captcha.png
 *.tmp
